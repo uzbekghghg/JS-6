@@ -1,3 +1,21 @@
+
+let asr = [11, 345, 678, 54, 90, 89, 98, 856, 93, 104, 115];
+
+let even = [];
+let num = [];
+
+for (let i = 0; i < asr.length; i++) {
+    if (asr[i] % 2 === 0) {
+        even.push(asr[i]);
+    } else {
+        num.push(asr[i]);
+    }
+}
+
+console.log(even);
+console.log(num);
+
+
 let arr = [];
 
 while (true) {
@@ -26,19 +44,3 @@ while (true) {
 
 }
 
-
-let asr = [11, 345, 678, 54, 90, 89, 98, 856, 93, 104, 115];
-
-let even = [];
-let num = [];
-
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] % 2 === 0) {
-        even.push(arr[i]);
-    } else {
-        num.push(arr[i]);
-    }
-}
-
-console.log(even);
-console.log(num);
